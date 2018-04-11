@@ -9,8 +9,12 @@
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'StaticPagesController@home');
+
+Route::get('/home', 'StaticPagesController@home');
+
+Route::get('/about', 'StaticPagesController@about');
+
+Route::get('/help', 'StaticPagesController@help');
