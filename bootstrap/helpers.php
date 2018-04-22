@@ -14,11 +14,11 @@ function get_db_config()
         ];
     } else {
         return $db_config = [
-            'connection' => env('BD_CONNECTION', 'mysql'),
+            'connection' => env('DB_CONNECTION', 'mysql'),
             'host' => env('DB_HOST', 'localhost'),
-            'database' => env('DB_DATABASE', 'laravel_lesson'),
-            'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', 'root'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
         ];
     }
 }
