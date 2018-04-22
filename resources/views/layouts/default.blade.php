@@ -5,6 +5,7 @@
     <title>@yield('title','Sample') - Laravel 学习日记</title>
     <link rel="stylesheet" href="/css/app.css">
 </head>
+
 <body>
     {{-- <header class="navbar navbar-fixed-top navbar-inverse">
         <div class="container">
@@ -17,7 +18,6 @@
                         <li><a href="/">登录</a></li>
                     </ul>
                 </nav>
-
             </div>
         </div>
     </header> --}}
@@ -27,5 +27,6 @@
     @yield('content')
     @include('layouts._footer')
     </div>
+    
 </body>
 </html>
