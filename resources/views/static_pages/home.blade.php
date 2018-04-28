@@ -7,6 +7,6 @@
       <a href="https://laravel-china.org/courses/laravel-essential-training-5.5">Laravel 入门教程的示例项目主页。</a>
     </p>
     <p>一切从这里开始。</p>
-  <p><a href="{{ route('sign') }}" class="btn btn-lg btn-success">现在注册</a></p>
+  <p><a href="{{ route('signup') }}" class="btn btn-lg btn-success">现在注册</a></p>
   </div>
 @stop
